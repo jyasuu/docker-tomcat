@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  tomcat:
+    build: .
+    ports:
+      - "8080:8080"
+    # environment:
+    #   CATALINA_HOME: /usr/local/tomcat
+    #   PATH: /usr/local/tomcat/bin:$PATH
+    # command: ["catalina.sh", "run"]
